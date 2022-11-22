@@ -1,6 +1,4 @@
 # ECS Logger
-
-## Description
 `ecs-logger` acts as a lightweight wrapper for `winston` adding enhanced type hinting for the fields in the Elastic Common Schema (ECS).
 
 `ecs-logger` also exports a type representing the ECS with the fields all made optional.
