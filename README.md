@@ -5,7 +5,6 @@
 
 `ecs-logger` also exports a type representing the ECS with the fields all made optional.
 
----
 
 ## Installation
 To install `ecs-logger` into your project run:
@@ -15,7 +14,6 @@ npm install ecs-logger
 
 the default export from the `ecs-logger` module is the `ECSLogger` class. There is also a named export, `ECS`, which is the type representing the ECS with the fields all made optional.
 
----
 
 ## Usage
 `ECSLogger` has 1 required parameter for the constructor - an instance of `winston.Logger`.
@@ -39,7 +37,6 @@ ecsLogger.error("Uh, oh.");
 
 If you want to directly access the instance of `winston.Logger` you constructed the `ECSLogger` with you can call the `getBaseLogger` method on the instance of `ECSLogger`.
 
----
 
 ## Adding extra fields to the ECS
 
