@@ -5,6 +5,4 @@ type RecursivePartial<T> = {
 };
 
 // Make all of the properties of EcsTree optional
-interface ECS extends RecursivePartial<EcsTree> {}
-
-export default ECS;
+export interface ECS extends RecursivePartial<EcsTree> {}
