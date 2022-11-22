@@ -1,7 +1,6 @@
 {
   "name": "ecs-logger",
   "version": "1.0.0",
-  "type": "module",
   "description": "Lightweight layer on top of winston to provide ecs type hinting",
   "main": "./lib/index.js",
   "scripts": {
@@ -40,6 +39,8 @@
   ],
   "typings": "./lib/index.d.ts",
   "devDependencies": {
-    "elastic-ecs": "^8.4.0-e"
+    "@types/node": "^18.11.9",
+    "elastic-ecs": "^8.4.0-e",
+    "prettier": "^2.7.1"
   }
 }
