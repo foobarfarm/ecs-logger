@@ -1,5 +1,5 @@
-import winston from "winston";
-import type ECS from "./ECS";
+import winston from 'winston';
+import type ECS from './ECS';
 
 export default class EcsLogger<ExtraFields = {}> {
   private logger: winston.Logger;

@@ -1,4 +1,4 @@
-import type { EcsTree } from "elastic-ecs";
+import type { EcsTree } from 'elastic-ecs';
 
 type RecursivePartial<T> = {
   [P in keyof T]?: RecursivePartial<T[P]>;
